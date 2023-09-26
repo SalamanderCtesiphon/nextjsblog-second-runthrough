@@ -6,8 +6,6 @@ export const metadata: Metadata = {
   title: "Users",
 }
 
-import React from 'react'
-
 export default async function UsersPage() {
   const usersData: Promise<User[]> = getAllUsers()
 
